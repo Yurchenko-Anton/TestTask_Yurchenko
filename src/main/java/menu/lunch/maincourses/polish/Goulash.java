@@ -5,6 +5,6 @@ import menu.MenuItem;
 
 public class Goulash extends MenuItem {
     public Goulash() {
-        super("goulash",650, Kitchen.POLISH);
+        super("goulash", 650, Kitchen.POLISH);
     }
 }

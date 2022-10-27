@@ -20,11 +20,10 @@ public class OrderService {
                     System.out.println("Ok, u want drink or food ?");
                     System.out.println("1-Drink/2-Food");
                     int choose = scanner.nextInt();
-                    MenuItem menuItem = chooseOrderAction(choose,scanner);
-                    if (menuItem != null){
+                    MenuItem menuItem = chooseOrderAction(choose, scanner);
+                    if (menuItem != null) {
                         menuItems.add(menuItem);
-                    }
-                    else System.out.println("Wrong order");
+                    } else System.out.println("Wrong order");
                     System.out.println("1-More or 3-Enough");
                     number = scanner.nextInt();
                     break;
@@ -63,7 +62,8 @@ public class OrderService {
             }
         }
     }
-    public void showMenu(){
+
+    public void showMenu() {
         System.out.println("Menu: ");
         new MenuFactory().getItems().forEach(System.out::println);
     }

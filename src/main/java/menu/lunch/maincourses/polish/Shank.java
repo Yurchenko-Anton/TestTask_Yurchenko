@@ -5,6 +5,6 @@ import menu.MenuItem;
 
 public class Shank extends MenuItem {
     public Shank() {
-        super("shank",800, Kitchen.POLISH);
+        super("shank", 800, Kitchen.POLISH);
     }
 }

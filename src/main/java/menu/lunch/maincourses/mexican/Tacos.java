@@ -5,6 +5,6 @@ import menu.MenuItem;
 
 public class Tacos extends MenuItem {
     public Tacos() {
-        super("tacos",330, Kitchen.MEXICAN);
+        super("tacos", 330, Kitchen.MEXICAN);
     }
 }

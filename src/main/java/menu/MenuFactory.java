@@ -26,8 +26,9 @@ public class MenuFactory {
         fill();
         return items;
     }
-// Bad practice
-    public void fill(){
+
+    // Bad practice
+    public void fill() {
         items.add(new Coffee());
         items.add(new Tea());
         items.add(new Cola());
